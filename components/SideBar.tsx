@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { MailIcon, MarkGithubIcon, LinkIcon, LocationIcon }  from '@primer/octicons-react';
 import styles from '../styles/SideBar.module.scss';
 import Copyright from './Copyright';
@@ -26,7 +27,7 @@ export default function SideBar({data}: SideBarProps) {
     <div className={styles.container}>
       { picture && (
         <div className={styles.picture}>
-          <img src={picture} alt="" />
+          <Image src={picture} width="150" height="150" alt="profile picture"/>
         </div>
       )}
       <h2 className={styles.name}>{name}</h2>

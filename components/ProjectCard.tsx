@@ -26,7 +26,7 @@ export default function ProjectCard({ data }: ProjectCardProps) {
           <div className={styles.links}>
             { links.map((link, index) => (
               <>
-                <a href="/">{link.label}</a>
+                <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label}</a>
                 {index < links.length - 1 && (' ⸱ ')}
               </>
             )) }

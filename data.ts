@@ -1,5 +1,32 @@
 import type { Project, UserInfo } from './utils/types';
 
+export const userInfo: UserInfo = {
+  name: 'Balázs Sáros',
+  role: 'Software Developer',
+  picture: '/avatar.jpeg',
+  links: [
+    {
+      label: 'hello@bsaros.com',
+      url: 'mailto:hello@bsaros.com',
+      icon: 'email',
+    },
+    {
+      label: 'github.com/balzss',
+      url: 'https://github.com/balzss',
+      icon: 'github',
+    },
+    {
+      label: 'linkedin.com/in/bsaros',
+      url: 'https://linkedin.com/in/bsaros',
+      icon: 'linkedin',
+    },
+    {
+      label: 'Budapest',
+      icon: 'location',
+    },
+  ]
+};
+
 export const projects: Project[] = [
   {
     title: 'konzultac.io',
@@ -16,7 +43,6 @@ export const projects: Project[] = [
     title: 'wololopolo.com',
     description: 'Sometimes the best way to express a thought is to put it on a T-Shirt. This webapp can help you with that in a matter of seconds.',
     url: 'https://wololopolo.com',
-    links: [],
   },
   {
     title: 'Luxbar',
@@ -47,30 +73,3 @@ export const projects: Project[] = [
     ]
   }
 ];
-
-export const userInfo: UserInfo = {
-  name: 'Balázs Sáros',
-  role: 'Software Developer',
-  picture: '/avatar.jpeg',
-  links: [
-    {
-      label: 'hello@bsaros.com',
-      url: 'mailto:hello@bsaros.com',
-      icon: 'email',
-    },
-    {
-      label: 'github.com/balzss',
-      url: 'https://github.com/balzss',
-      icon: 'github',
-    },
-    {
-      label: 'linkedin.com/in/bsaros',
-      url: 'https://linkedin.com/in/bsaros',
-      icon: 'linkedin',
-    },
-    {
-      label: 'Budapest',
-      icon: 'location',
-    },
-  ]
-};
