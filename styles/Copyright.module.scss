@@ -1,0 +1,26 @@
+@import "variables";
+
+.copyright {
+  margin-top: auto;
+  opacity: 0.5;
+  font-size: 14px;
+  display: none;
+}
+
+.desktop {
+  @media ( min-width: $breakpoint ) {
+    display: block;
+  }
+}
+
+.mobile {
+  text-align: center;
+  margin-top: 16px;
+  @media ( max-width: $breakpoint ) {
+    display: block;
+  }
+}
+
+.all {
+  display: block;
+}

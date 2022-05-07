@@ -1,0 +1,64 @@
+@import "variables";
+
+.container {
+  border-right: $border;
+  background-color: $sidebar-bg-color;
+  font-family: 'Roboto Slab', serif;
+  height: 100%;
+  padding: $thin-padding;
+  display: flex;
+  flex-direction: column;
+
+  @media ( max-width: $breakpoint ) {
+    height: auto;
+    align-items: center;
+  }
+}
+
+.picture {
+  margin-bottom: 8px;
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.name {
+  line-height: 1.25;
+  font-size: 28px;
+  margin: 0;
+}
+
+.role {
+  margin: 0;
+  margin-bottom: 12px;
+  opacity: 0.7;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+
+  @media ( max-width: $breakpoint ) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.linkItem {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+  line-height: 1.5;
+  margin-right: 16px;
+
+  svg {
+    text-align: center;
+    margin-right: 6px;
+  }
+}
+
