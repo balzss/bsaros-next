@@ -6,18 +6,19 @@
   color: $text-color;
   display: grid;
   grid-template-columns: $sidebar-width auto;
-  min-height: 100%;
+  height: 100%;
 
   @media ( max-width: $breakpoint ) {
     grid-template-columns: auto;
     grid-template-rows: auto 1fr;
+    height: auto;
   }
 }
 
 .content {
   padding: $thin-padding $thick-padding;
   flex: 1;
-  overflow-y: scroll;
+  overflow-y: auto;
   min-height: 100%;
 
   @media ( max-width: $breakpoint ) {
@@ -36,6 +37,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 24px;
+  max-width: 720px;
 
   @media ( max-width: $breakpoint ) {
     grid-gap: 16px;

@@ -30,23 +30,23 @@ export const userInfo: UserInfo = {
 export const projects: Project[] = [
   {
     title: 'konzultac.io',
-    description: 'Create propaganda posters faster then ever.',
+    description: 'Create propaganda posters faster then ever',
     url: 'https://konzultac.io',
     links: [
       {
         label: 'Github',
-        url: 'https://github.com/balzss/luxbar'
+        url: 'https://github.com/balzss/konzultac.io'
       },
     ]
   },
   {
     title: 'wololopolo.com',
-    description: 'Sometimes the best way to express a thought is to put it on a T-Shirt. This webapp can help you with that in a matter of seconds.',
+    description: 'Custom text on t-shirts in a matter of seconds',
     url: 'https://wololopolo.com',
   },
   {
     title: 'Luxbar',
-    description: 'Responseive, customizable and CSS only navbar library with an interactive demo page.',
+    description: 'Responseive, CSS only navbar library with an interactive demo page',
     links: [
       {
         label: 'Github',
@@ -64,12 +64,18 @@ export const projects: Project[] = [
     links: [
       {
         label: 'Github',
-        url: 'https://github.com/balzss/luxbar'
+        url: 'https://github.com/balzss/cli-typer'
       },
+    ]
+  },
+  {
+    title: 'Grapefruit',
+    description: 'Simple Android app with interactive stop motion photography',
+    links: [
       {
-        label: 'Demo',
-        url: 'https://balzss.github.io/luxbar'
-      }
+        label: 'Play Store',
+        url: 'https://play.google.com/store/apps/details?id=com.mixnose.grapefruit&hl=en'
+      },
     ]
   }
 ];

@@ -1,10 +1,10 @@
 // COLORS
 $bg-color: #f5f6f8;
+$bg-alt-color: white;
 $text-color: #222;
+$text-light-color: red;
 $border-color: #ccc;
-$sidebar-bg-color: #fff;
 $url-color: #0969da;
-$url-visited-color: #1A237E;
 
 // SIZES
 $thin-padding: 28px;
@@ -15,8 +15,8 @@ $large-gap: 24px;
 
 $item-padding: 16px;
 
-$breakpoint: 900px;
-
 // OTHER
 $border: 1px solid $border-color;
 $card-border-radius: 5px;
+
+$breakpoint: 900px;

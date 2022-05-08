@@ -1,26 +1,17 @@
 @import "variables";
 
 .container {
-  max-width: 800px;
   border: $border;
   border-radius: $card-border-radius;
-  background-color: white;
+  background-color: $bg-alt-color;
   display: flex;
 }
-
-.thumbnail {
-  padding-left: 16px;
-  padding-block: 16px;
-  width: 200px;
-
-}
-
 .details {
   padding: 16px;
 }
 
 .name {
-  display: block;
+  display: inline-block;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.25;

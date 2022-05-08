@@ -24,13 +24,11 @@ export default function Home({ projects, userInfo }: HomeProps) {
       <div className={styles.container}>
         <SideBar data={userInfo}/>
         <div className={styles.content}>
-          <div className="contentSection">
-            <h3 className={styles.sectionTitle}>Projects</h3>
-            <div className={styles.grid}>
-              { projects.map((projectInfo) => (
-                <ProjectCard data={projectInfo} key={projectInfo.title}/>
-              ))}
-            </div>
+          <h3 className={styles.sectionTitle}>Projects</h3>
+          <div className={styles.grid}>
+            { projects.map((projectInfo) => (
+              <ProjectCard data={projectInfo} key={projectInfo.title}/>
+            ))}
           </div>
           <Copyright display="mobile" holder={userInfo.name}/>
         </div>

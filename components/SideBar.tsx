@@ -27,7 +27,7 @@ export default function SideBar({data}: SideBarProps) {
     <div className={styles.container}>
       { picture && (
         <div className={styles.picture}>
-          <Image src={picture} width="150" height="150" alt="profile picture"/>
+          <img src={picture} alt="profile picture" />
         </div>
       )}
       <h2 className={styles.name}>{name}</h2>

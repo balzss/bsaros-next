@@ -1,15 +1,14 @@
 @import "variables";
 
 .container {
-  border-right: $border;
-  background-color: $sidebar-bg-color;
+  background-color: $bg-alt-color;
   font-family: 'Roboto Slab', serif;
   height: 100%;
   padding: $thin-padding;
   display: flex;
   flex-direction: column;
 
-  @media ( max-width: $breakpoint ) {
+  @media (max-width: $breakpoint) {
     height: auto;
     align-items: center;
   }
@@ -42,7 +41,7 @@
   display: flex;
   flex-direction: column;
 
-  @media ( max-width: $breakpoint ) {
+  @media (max-width: $breakpoint) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -61,4 +60,3 @@
     margin-right: 6px;
   }
 }
-
