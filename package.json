@@ -1,5 +1,6 @@
 {
   "name": "bsaros-next",
+  "homepage": "https://bsaros.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
