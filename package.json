@@ -7,9 +7,9 @@
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
-    "build": "next build && next export -o build",
+    "build": "next build && next export -o build && touch ./build/.nojekyll",
     "predeploy": "npm run build && cp CNAME build/CNAME",
-    "deploy": "npm run predeploy && gh-pages -d build"
+    "deploy": "npm run predeploy && gh-pages -d build -t true "
   },
   "dependencies": {
     "@primer/octicons-react": "^17.1.0",
