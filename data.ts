@@ -30,7 +30,7 @@ export const userInfo: UserInfo = {
 export const projects: Project[] = [
   {
     title: 'konzultac.io',
-    description: 'Create propaganda posters faster then ever',
+    description: 'Create propaganda posters faster than ever',
     url: 'https://konzultac.io',
     links: [
       {
@@ -46,7 +46,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Luxbar',
-    description: 'Responseive, CSS only navbar library with an interactive demo page',
+    description: 'Responsive, CSS only navbar library with an interactive demo page',
     links: [
       {
         label: 'Github',
